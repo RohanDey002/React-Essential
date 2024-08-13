@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+html{
+  background: radial-gradient(#280a48, #20043d);
+  color: white;
+  text-align: center;
+}
+header{
+  margin: 2rem 0;
+  text-align: center;
+}
+
+header img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  filter: drop-shadow(1rem 1rem  8rem rgb(145, 145, 230));
+}
+
+header h1{
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(40deg, rgb(240, 105, 231), rgb(59, 152, 240));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 8px rgb(22, 22, 22));
+}
+main{
+  width: 90%;
+  max-width:70rem ;
+  margin: auto;
+}
+
+#core-concepts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#core-concepts {
+  padding: 2rem;
+  border-radius: 6px;
+  background-color: #140524;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+#core-concepts li {
+  width: 15rem;
+  text-align: center;
+}
+
+#core-concepts li img {
+  height: 8rem;
+  width: 6rem;
+  
+}
+
+#core-concepts li h3 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+
+#core-concepts li p {
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#details{
+  margin: 3rem auto;
+}
+#details h2{
+font-size: 1.5rem;
+text-align: left;
+}
+#details menu{
+  margin:1rem 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+
+}
+
+#details menu button{
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  font-size: 1.3rem;
+  color: #a18aba;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+#details menu button:hover{
+  background-color: #1b082f;
+  color: #eba7ef;
+}
+#details menu button.active{
+  background-color: #7925da;
+}
+#content-details{
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #2f1d43;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  
+}
+#content-details p{
+line-height: 2rem;
+margin: 0;
+font-size: 1.5rem;
+font-weight: bold;
+}
+#content-details code{
+  font-size: 1.2rem;
+}
